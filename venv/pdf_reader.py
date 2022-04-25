@@ -1,6 +1,5 @@
 import pdfplumber
 
-
 def pdf_to_dict(file_path) -> dict:
     with pdfplumber.open(FILEPATH) as pdf:
         first_page = pdf.pages[0]
